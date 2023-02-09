@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
+
+body {
+    /*background-image: linear-gradient(to right, #461220, #8c2f39, #b23a48, #fcb9b2, #fed0bb);*/
+
+    background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #ea28ff 0%, #000000 100%), linear-gradient(225deg, #b300ff 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+    background-blend-mode: screen, overlay, hard-light, normal; 
+
+}
 
 .container {
-    font-family: 'Roboto Condensed', sans-serif;
+  
+    font-family: 'Bangers', cursive;
     text-align: center;
     padding: 70px;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 400px;
     margin-right: 400px;
-    ;
     background-color: rgba(0, 255, 255, 0.467);
 }
 
@@ -16,7 +24,7 @@
 
 
 .input {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Bangers', cursive;
     display: flex;
     width: 300px;
     margin-left: 200px;
@@ -25,7 +33,7 @@
 }
 
 .input input {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Bangers', cursive;
     width: 200px;
     height: 40px;
     border: none;
@@ -35,18 +43,27 @@
 }
 
 
-.calcular{
+.calcular {
 
- margin-left: 60px;
+    margin-left: 60px;
 }
 
 .title {
-   margin-left: 45px;
+    margin-left: 45px;
     margin-bottom: 30px;
-    
+
 }
 
-.txt{
-margin-left: 55px;
+.txt {
+    margin-left: 55px;
 
+}
+
+.result {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 200px;
+    margin-left: 55px;
+    margin-top: 20px;
 }
